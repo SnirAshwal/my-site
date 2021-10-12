@@ -11,12 +11,12 @@ export const ProjectsData = [
     id: 2,
     name: "MY-SITE",
     img: "https://apptech.com.tr/wp-content/uploads/2019/11/types-of-websites.jpg",
-    gitLink: "#",
+    gitLink: "https://github.com/SnirAshwal/my-site",
   },
   {
     id: 3,
     name: "SPACE BATTLESHIPS GAME",
     img: battleshipsProjectImg,
-    gitLink: "#",
+    gitLink: "https://github.com/SnirAshwal/BattleShips",
   },
 ];

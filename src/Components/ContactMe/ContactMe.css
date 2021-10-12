@@ -146,3 +146,13 @@
         top 0.3s ease 0s;
 
 }
+
+@media screen and (max-width:350px) {
+    .textfeild {
+        width: 80px;
+    }
+
+    .ContactMe {
+        clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+    }
+}

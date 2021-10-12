@@ -60,7 +60,12 @@ function Projects() {
                             backgroundImage: `url(${img})`,
                           }}
                         >
-                          <a href={gitLink} className="git-project-link">
+                          <a
+                            href={gitLink}
+                            className="git-project-link"
+                            target={"_blank"}
+                            rel="noreferrer"
+                          >
                             <AiFillGithub />
                           </a>
                           <div className="project-details">{name}</div>

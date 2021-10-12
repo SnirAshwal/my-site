@@ -1,0 +1,143 @@
+.Projects {
+    color: var(--color-white);
+    text-align: center;
+    font-family: var(--font-bebas-neu);
+    background-color: var(--main-bg-color);
+    clip-path: polygon(0 0, 100% 10%, 100% 95%, 0 100%);
+    margin: 1em auto;
+}
+
+.projects-section {
+    background-color: var(--main-bg-color-2);
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.projects-slider {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.project-container {
+    max-width: 800px;
+}
+
+.project {
+    background-color: var(--main-bg-color);
+    color: var(--main-bg-color);
+    font-size: 1.5rem;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 20px;
+    margin: 2em auto;
+    box-shadow: 0 0 20px rgb(26, 25, 25);
+}
+
+.project-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -35px;
+    height: 400px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.project-details {
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+    letter-spacing: 0.2em;
+    color: var(--main-bg-color-3);
+    background-color: var(--main-bg-color);
+    border-radius: 0 0 20px 20px;
+    visibility: hidden;
+}
+
+.project-container:hover .project-details {
+    font-size: 1.3rem;
+    visibility: visible;
+    height: 50px;
+    transition: height 0.3s ease-in-out,
+        visibility 0.5s ease-in-out;
+}
+
+.project-container:hover .project-img {
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.project-container:hover .git-project-link {
+    visibility: visible;
+    opacity: 1;
+    transition:
+        visibility 0.5s ease-in-out,
+        opacity 0.5s ease-in-out;
+}
+
+.git-project-link {
+    background-color: var(--color-white);
+    color: var(--main-bg-color-2);
+    box-shadow: 0 0 10px black;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.git-project-link:hover {
+    color: var(--color-white);
+    background-color: var(--main-bg-color-2);
+}
+
+
+.slider {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.slider-prev,
+.slider-next {
+    background: none;
+    color: var(--color-white);
+    border: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 18em;
+    display: block;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.slider-prev {
+    margin-left: -2.75em;
+}
+
+.slider-next {
+    right: 0;
+    margin-right: -2.75em;
+}
+
+.slider-prev:hover,
+.slider-next:hover {
+    cursor: pointer;
+    color: var(--main-bg-color-3);
+    background-color: rgba(255, 255, 255, 0.513);
+}

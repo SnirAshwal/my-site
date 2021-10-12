@@ -1,0 +1,21 @@
+:root {
+    --main-bg-color: rgb(40, 40, 40);
+    --main-bg-color-2: rgb(57, 57, 57);
+    --main-bg-color-3: rgb(177, 177, 177);
+    --navbar-color: rgb(67, 67, 67);
+    --main-blue-color: rgb(52, 109, 209);
+    --main-blue-color-2: rgb(45, 95, 182);
+    --color-white: white;
+    --color-notification-success: rgb(98, 172, 98);
+    --color-notification-error: rgb(195, 74, 67);
+    --font-bebas-neu: 'Bebas Neue',
+        sans-serif;
+}
+
+html,
+body {
+    background-color: rgb(40, 40, 40);
+    margin: 0;
+    min-width: 280px;
+    overflow-x: hidden;
+}

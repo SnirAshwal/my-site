@@ -1,0 +1,29 @@
+.Footer {
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-top: -2em;
+}
+
+.footer-social {
+    margin-bottom: 1em;
+}
+
+.arrow-up {
+    cursor: pointer;
+}
+
+.arrow-up:hover {
+    color: var(--main-bg-color-3);
+}
+
+.social-icon {
+    color: var(--main-blue-color);
+    margin: 0 0.4em;
+}
+
+.social-icon:hover {
+    color: var(--main-blue-color-2);
+}

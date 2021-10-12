@@ -1,0 +1,148 @@
+.ContactMe {
+    color: var(--color-white);
+    text-align: center;
+    font-family: var(--font-bebas-neu);
+    background-color: var(--main-bg-color-2);
+    margin: 1em auto;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+}
+
+.contact-me-main {
+    background-color: var(--main-bg-color-2);
+    margin: 1em auto;
+    position: relative;
+    max-width: 2400px;
+}
+
+.contact-me-form {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: 0 auto;
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+}
+
+.contact-me-input-details {
+    padding: 0.5em;
+    width: 50%;
+}
+
+.contact-me-input-text {
+    width: 50%;
+    border-left: 1px solid var(--main-bg-color-3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-text {
+    font-size: 1.5rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.textfeild-title {
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 1em;
+}
+
+.textfeild {
+    height: 350px;
+    width: 90%;
+    border: none;
+    color: var(--color-white);
+    background-color: var(--main-bg-color);
+    font-size: 1.2rem;
+    outline: none;
+    resize: none;
+    margin-left: 0.5em;
+
+}
+
+.submit-btn {
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 0.4em;
+    color: white;
+    border: none;
+    background-color: var(--main-blue-color);
+    cursor: pointer;
+    font-family: var(--font-bebas-neu);
+    letter-spacing: 0.1em;
+    border-radius: 0 0 20px 0;
+}
+
+.submit-btn:hover {
+    background-color: var(--main-blue-color-2);
+}
+
+.form-input {
+    border: none;
+    width: 35%;
+    text-align: center;
+    min-width: 95px;
+    border: 3px solid var(--main-blue-color);
+    border-radius: 10px;
+    color: var(--color-white);
+    background-color: var(--main-bg-color);
+    font-size: 1.2rem;
+    outline: none;
+    margin: 0.5em auto;
+    padding: 0.3em;
+}
+
+
+.success-notification,
+.error-notification {
+    width: 20%;
+    min-width: 200px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    bottom: 40%;
+    left: 0;
+    margin: auto;
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+    padding: 4px;
+    border-radius: 10px;
+
+}
+
+.success-notification {
+    background-color: var(--color-notification-success);
+}
+
+.error-notification {
+    background-color: var(--color-notification-error);
+}
+
+.notification-fade-in {
+    visibility: visible;
+    opacity: 1;
+    top: 50%;
+    transition: visibility 0s linear 0s,
+        opacity 300ms,
+        top 0.3s ease 0s;
+
+}
+
+.notification-fade-out {
+    visibility: hidden;
+    opacity: 0;
+    top: 40%;
+    transition: visibility 0s linear 300ms,
+        opacity 300ms,
+        top 0.3s ease 0s;
+
+}

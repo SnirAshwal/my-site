@@ -1,0 +1,152 @@
+.Technologies {
+    color: var(--color-white);
+    text-align: center;
+    font-family: var(--font-bebas-neu);
+    height: 340px;
+}
+
+.technologies-section {
+    margin: 0 auto;
+    width: 50%;
+    min-width: 280px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 1700px;
+}
+
+.tech-items-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tech-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4px;
+    border-radius: 50%;
+    background-color: var(--main-bg-color-2);
+    transition: all .3s ease-in-out;
+    filter: grayscale(100%);
+    padding: 3px;
+}
+
+.tech-item:hover {
+    transform: scale(1.2);
+    margin: 10px;
+    filter: grayscale(0%);
+    background-color: var(--color-white);
+}
+
+.java {
+    color: rgb(230, 113, 59);
+    width: 60px;
+    height: 60px;
+}
+
+.spring {
+    width: 75px;
+    height: 75px;
+    color: rgb(38, 151, 23);
+}
+
+.react {
+    width: 70px;
+    height: 70px;
+    color: rgb(54, 220, 226);
+}
+
+.python {
+    width: 65px;
+    height: 65px;
+    color: rgb(236, 167, 76);
+}
+
+.my-sql {
+    width: 60px;
+    height: 60px;
+    color: rgb(33, 114, 180);
+}
+
+.mongo-db {
+    width: 60px;
+    height: 60px;
+    color: rgb(44, 160, 28);
+}
+
+
+.javascript {
+    width: 70px;
+    height: 70px;
+    color: rgb(255, 187, 98);
+}
+
+.typescript {
+    color: rgb(46, 125, 190);
+    width: 50px;
+    height: 50px;
+}
+
+.nodejs {
+    width: 65px;
+    height: 65px;
+    color: rgb(44, 160, 28);
+}
+
+.html5 {
+    width: 70px;
+    height: 70px;
+    color: rgb(214, 112, 16);
+}
+
+.css3 {
+    width: 80px;
+    height: 80px;
+    color: rgb(3, 91, 206);
+}
+
+.redux {
+    width: 75px;
+    height: 75px;
+    color: rgb(100, 10, 109);
+}
+
+@media screen and (max-width:800px) {
+    .my-sql {
+        width: 45px;
+        height: 45px;
+    }
+
+    .spring {
+        width: 50px;
+        height: 50px;
+    }
+
+    .typescript {
+        width: 30px;
+        height: 30px;
+    }
+
+    .react {
+        width: 45px;
+        height: 45px;
+    }
+
+    .python {
+        width: 35px;
+        height: 35px;
+    }
+
+    .javascript {
+        width: 60px;
+        height: 60px;
+    }
+
+    .nodejs {
+        width: 55px;
+        height: 55px;
+    }
+
+}

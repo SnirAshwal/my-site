@@ -1,16 +1,18 @@
 import battleshipsProjectImg from "../../assets/projectsImages/battleshipsProjectImg.jpg";
+import couponlyProjectImg from "../../assets/projectsImages/couponlyProjectImg.jpg";
+import mySiteProjectImg from "../../assets/projectsImages/mySiteProjectImg.jpg";
 
 export const ProjectsData = [
   {
     id: 1,
     name: "COUPON-SYSTEM",
-    img: "https://www.visualcapitalist.com/wp-content/uploads/2019/08/top-100-websites-prev.jpg",
-    gitLink: "#",
+    img: couponlyProjectImg,
+    gitLink: "https://github.com/SnirAshwal/couponly-project",
   },
   {
     id: 2,
     name: "MY-SITE",
-    img: "https://apptech.com.tr/wp-content/uploads/2019/11/types-of-websites.jpg",
+    img: mySiteProjectImg,
     gitLink: "https://github.com/SnirAshwal/my-site",
   },
   {

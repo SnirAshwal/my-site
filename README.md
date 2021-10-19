@@ -1,3 +1,3 @@
 <h1>MY LANDING PAGE</h1>
-<h4>Quick view: https://snir-ashwal-landing-page.herokuapp.com/</h4>
+<h4>Quick view: https://snirashwal.netlify.app/</h4>
 
